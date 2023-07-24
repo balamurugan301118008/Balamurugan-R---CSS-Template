@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+    scroll-behavior:smooth;
+    transition: 10s ease-in-out;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    padding: 0 15px;
+    color: cadetblue;
+}
+.tech-type-ul > li{
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.nav-menu-ul {
+    display: flex;
+    justify-content: space-between;
+    color:cadetblue;
+}
+.header-banner>img{
+    border-bottom: solid 34px blue;
+}
+.header-nav>div {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+
+.header-nav {
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    color:cadetblue;
+}
+
+.banner-text {
+    position: absolute;
+    top: 250px;
+    left: 10%;
+    color: white;
+}
+
+.banner-text h2 {
+    width: 31%;
+    font-size: 35px;
+    font-weight: 500;
+}
+span.line{
+    border: 2px solid blue;
+    margin-right: 14px;
+}
+.banner-text p {
+    width: 31%;
+}
+#technology {
+    background-color: white;
+}
+
+.heading {
+    text-align: center;
+    position: relative;
+    top: 42px;
+}
+
+.tech-types {
+    display: flex;
+    justify-content: center;
+}
+
+li.span {
+    padding: 18px;
+}
+
+.tech-type-ul {
+    line-height: 32px;
+    font-size: 17px;
+    width: 23%;
+    margin-top: 68px;
+}
+
+.fa-solid {
+    color: seagreen;
+}
+
+.image-box>img {
+    height: 400px;
+    width: 80%;
+    background-repeat: no-repeat;
+    padding-left: 10%;
+}
+
+.inner-content {
+    width: 30%;
+    float: right;
+    position: relative;
+    bottom: 290px;
+    right: 172px;
+}
+
+.tech {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.portfolio-img {
+    width: 40%;
+    padding-right: 10%;
+}
+
+h3.side-heading {
+    padding-left: 10%;
+    font-size: 26px;
+    padding-top: 47px;
+    color: #999999;
+}
+
+.portfolio-description {
+    width: 30%;
+    padding-left: 10%;
+}
+
+.portfolio-benefits>p {
+    color: rgb(0, 0, 0);
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+
+.card-details {
+    width: 75%;
+    padding-top: 15px;
+}
+
+.card-img {
+    padding: 35px 19px 0px 14px;
+    background-color: gainsboro;
+}
+
+.card-box {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid grey;
+    width: 31%;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.part-two>.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    height: 400px;
+    position: relative;
+    left: 10%;
+}
+
+#licensing {
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+.table-content {
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 56px;
+}
+.table-content>.title{
+    color: black;
+    text-align: center;
+    font-size: 23px;
+}
+.table-content>.note{
+    color: grey;
+    text-align: center;
+    font-size: 17px;
+}
+tr:nth-child(odd){
+    background-color: #c2cad1;
+}
+table td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    height: 35px;
+}
+th{
+    background-color: rgb(0, 28, 56);
+    color: #e9e9e9;
+    border: 1px solid grey;
+    border-style: none;
+    height: 41px;
+    width: 20%;
+}
+table {
+    border: 1px solid grey;
+    width: 40%;
+    text-align: center;
+    border-radius: 4px;
+}
+.contact-description > h3.side-heading {
+    padding-left:0;
+    font-size: 26px;
+    padding-top: 47px;
+    color: #999999;
+}
+#contact {
+    background-color: darkblue;
+}
+.contact>.container{
+    display: flex;
+    justify-content:center;
+}
+.contact-description>p{
+    padding-left:0;
+    width: 43%;
+    color: white;
+}
+.contact-description{
+    color: whitesmoke;
+    width: 50%;
+    position: relative;
+    left: 10%;
+    top: 80px;
+}
+
+.contact-map{
+    width: 50%;
+    position: relative;
+    right: 10%;
+    bottom: 63px;
+    margin-top: 143px;
+}
+
+
+footer {
+    width: 100%;
+    height: 68px;
+    background-color: darkblue;
+    text-align: center;
+    color: white;
+}
+.copyright>p{
+    padding-top: 25px;
+}
+.contact{
+    border-bottom: solid 8px blue;
+}
+
